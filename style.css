@@ -1,0 +1,85 @@
+* {box-sizing: border-box;}/*無敵星星的部分*/
+
+body{
+    margin: 0
+}
+
+.wrap{
+    width: 1280px ;
+    margin-inline: auto;/*區塊左右置中*/
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 82px;
+    padding-bottom: 60px;
+
+}
+.menu ul{
+    width: 1280px ;
+    display: flex;/*讓選單也橫排*/
+    list-style: none;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+li {
+    width: 1280px ;
+
+}
+.menu a{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px 60px;
+    background-color: rgb(255, 68, 93);
+    border-radius: 8px;
+    text-decoration: none;/*清除超連結底線*/
+}
+
+.top {
+    width: 1280px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+
+
+}
+
+.card{
+    width: 100%;
+    height: 222px;
+    gap: 110px;
+    justify-content: center;
+    display: flex;/*讓選單也橫排*/}
+
+.image1 {
+    background-image: url(img/1.png);
+    width: 353px;
+    height: 222px;
+    border-radius: 10px;
+}
+
+.image2 {
+    background-image: url(img/2.jpg);
+    width: 353px;
+    height: 222px;
+    border-radius: 10px;
+
+}
+
+
+.image3 {
+    background-image: url(img/3.jpg);
+    width: 353px;
+    height: 222px;
+    border-radius: 10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    color: gray;
+
+}
